@@ -316,3 +316,6 @@ This structured output makes it easy to integrate Rufus into RAG (Retrieval-Augm
 ## Challenges and Limitations:
 
 While Rufus did a great job with government websites, Chima's website, and well documented products like https://www.notion.com/product/docs, niche cases with more recent company products with ill formatted or hidden elements/images could pose problems with the current approach. Recently launched startups (for example https://flairlabs.ai/#hero-home) could pose problems to the failsafe of constructing a graph of web searches, simply because there was not enough information disseminated from the web yet for recently formulated startups. Further improvements could include dynamic browser use and OpenAI Operator style use of the browser incorporating computer vision/OCR to check for information in these edge cases.
+
+
+Author: Dipro C.
