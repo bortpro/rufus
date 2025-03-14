@@ -314,8 +314,7 @@ The documents variable returned by client.scrape() contains a comprehensive JSON
 This structured output makes it easy to integrate Rufus into RAG (Retrieval-Augmented Generation) pipelines, as the data is already formatted for immediate use by language models. This intuitive API-response paradigm is also in line with higher level system design in mind, as it returns several JSON objects of interest. It returns the individual efforts of both tiers of scraping as well as the synthesized, AI powered understanding of both scraping efforts (using the best of both worlds). Error-handling is accounted for within Rufus, checking for cases where no results were returned from a search/URL. If sufficient information (defined by a character limit) is gained by the first tier approach, Rufus efficiently only runs the first tier of scraping.
 
 ## Challenges and Limitations:
-
-While Rufus did a great job with government websites, Chima's website, and well documented products like https://www.notion.com/product/docs, niche cases with more recent company products with ill formatted or hidden elements/images could pose problems with the current approach. Recently launched startups (for example https://flairlabs.ai/#hero-home) could pose problems to the failsafe of constructing a graph of web searches, simply because there was not enough information disseminated from the web yet for recently formulated startups. Further improvements could include dynamic browser use and OpenAI Operator style use of the browser incorporating computer vision/OCR to check for information in these edge cases.
+Further improvements could include dynamic browser use and OpenAI Operator style use of the browser incorporating computer vision/OCR to check for information in these edge cases.
 
 
 Author: Dipro C.
